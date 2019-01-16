@@ -1,0 +1,10 @@
+#main{
+	margin-top: 100px;
+	text-shadow: 0 2px 3px rgba(27, 35, 42, 0.4);
+	color: #ffffff;
+	font-size: 55px;
+	font-weight: 300;
+}
+.chooseBtns{
+	margin-top: 50px;
+}

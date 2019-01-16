@@ -1,0 +1,41 @@
+
+<div class="info">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table table-striped">
+  				<tbody>
+  				  <tr>
+  				    <td>Город</td>
+  				    <td>{{weather.city.name}}</td>
+  				  </tr>
+  				  <tr>
+  				    <td>Температура</td>
+  				    <td>{{weather.list[0].main.temp- 273.15 + ' &deg;'}}C</td>
+  				  </tr>
+					 <tr>
+  				    <td>Макс t</td>
+  				    <td>{{weather.list[0].main.temp_max -273.15 + ' &deg;'}}C</td>
+  				  </tr>
+  				  <tr>
+  				    <td>Мин t</td>
+  				    <td>{{weather.list[0].main.temp_min -273.15 + ' &deg;'}}C</td>
+  				  </tr>
+  				   <tr>
+  				    <td>Описание погоды</td>
+  				    <td>{{weather.list[0].weather[0].description}}</td>
+  				  </tr>
+  				  <tr>
+  				    <td>Влажность</td>
+  				    <td>{{weather.list[0].main.humidity}} %</td>
+  				  </tr>
+  				  <tr>
+  				    <td>Ветер</td>
+  				    <td>{{weather.list[0].wind.speed}} м/с</td>
+  				  </tr>
+  				</tbody>
+			</table>
+		</div>	
+	</div>
+</div>
+</div>
